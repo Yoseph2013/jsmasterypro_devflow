@@ -6,12 +6,13 @@ import React from "react";
 const inter = LocalFont({
   src: "./fonts/InterVF.ttf",
   variable: "--font-inter",
-  weight: " 300 400 500 600 700 ",
+  weight: " 100 200 300 400 500 600 700 800 900",
 });
+
 const spacegrotesk = LocalFont({
   src: "./fonts/SpaceGroteskVF.ttf",
   variable: "--font-space-grotesk",
-  weight: "100 200 300 400 500 600 700 800 900",
+  weight: " 300 400 500 600 700 ",
 });
 
 export const metadata: Metadata = {
